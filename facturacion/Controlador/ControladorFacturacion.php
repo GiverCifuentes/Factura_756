@@ -20,8 +20,6 @@ $CrudDetalleFactura = new CrudDetalleFactura();
 
 //echo $CodigoFacturaGenerado;
 
-
-
 if (isset($_POST["Registrar"])){// si lapeticion se registra
 
      $Factura->setCodigoCliente($_POST["CodigoCliente"]);
@@ -57,7 +55,6 @@ if (isset($_POST["Registrar"])){// si lapeticion se registra
           {
                echo " Error en el Registro";
           }
-          
      }
 }
 
