@@ -18,4 +18,4 @@ if (!(isset($_SESSION["NombreUsuario"]))) {
 
 <a href="facturacion/">Facturacion</a>
 <br>
-<a href="CerrarSeccion.php">Cerrar</a>
+<a href="CerrarSesion.php">Cerrar</a>
